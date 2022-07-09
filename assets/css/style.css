@@ -462,3 +462,212 @@ footer div#noel2 h2 {
     
    
 }
+
+@media (max-width: 700px){
+    
+    body {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        padding: 1rem;
+    }
+
+
+    section#menu{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    section div#noel img {
+        width: 55px;
+    
+    }
+    
+    
+    section div#noel h2 {
+        font-size: 0.9rem;
+    }
+    
+    header {
+        display: block;
+        align-items: center;
+        height: 60vh;
+    }
+
+
+    header div {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    
+    header img {
+        align-items: center;
+        width: 80%;
+        padding-left: 3.5rem;
+        
+      
+    }
+    
+    header div h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+        
+    }
+    
+    header div p {
+        text-align: center;
+        font-size: 1rem;
+        
+    }
+    
+    #botao {
+        padding: 10px 24px;
+        border-radius: 4px;
+        
+    }
+
+    main section#acessorios {
+        background-color: #ffffff;
+        width: 100%;
+        height: 125vh;
+    
+    }
+
+
+    main section#acessorios article h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    main section#acessorios article p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    main section#acessorios #imagens{
+        padding: 0;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section#acessorios #imagens #imagem1 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    main section#acessorios #imagens  h2 {
+        padding: 0;
+        font-size: 1.1rem;
+    }
+    main section#acessorios #imagens  p {
+        padding: 0;
+        font-size: 0.8rem;
+    }
+
+
+    main section#acessorios #imagens #imagem2 img {
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        text-align: center;
+    }
+
+    main section#acessorios #imagens #imagem3 img {
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    main section#acessorios #imagens #imagem4 img {
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    main section#comemore {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px ;
+        height: 75vh;
+    
+    }
+
+    main section#comemore img {
+        padding-top: 0rem;
+        width: 70%;
+        align-items: center;
+       
+    }
+
+
+    main section#comemore div {
+        padding-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+            
+    }
+
+    main section#comemore div h2 {
+        text-align: center;
+        font-size: 1.5rem;
+       
+    }
+
+    main section#comemore div p {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        width: 100%;
+        height: 15vh;
+        padding: 3rem 2rem ;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    footer nav {
+        width: 50%;
+        gap: 15px;    
+    
+    }
+    
+    
+    
+    
+    footer div#noel2 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    footer div#noel2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    footer div#noel2 h2 {
+        padding: 0.1rem;
+        font-size: 1rem;
+        font-weight: 500px;
+        padding-bottom: 1rem;
+        gap: 10px;
+    }
+    
+   
+}
