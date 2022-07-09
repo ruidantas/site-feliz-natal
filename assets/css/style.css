@@ -254,7 +254,7 @@ footer div#noel2 h2 {
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 1200px){
     
     body {
         display: block;
@@ -283,7 +283,7 @@ footer div#noel2 h2 {
     header {
         display: block;
         align-items: center;
-        height: 60vh;
+        height: 70vh;
     }
 
 
@@ -326,7 +326,7 @@ footer div#noel2 h2 {
     main section#acessorios {
         background-color: #ffffff;
         width: 100%;
-        height: 125vh;
+        height: 140vh;
     
     }
 
@@ -393,7 +393,7 @@ footer div#noel2 h2 {
         justify-content: center;
         align-items: center;
         gap: 20px ;
-        height: 75vh;
+        height: 80vh;
     
     }
 
